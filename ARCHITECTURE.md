@@ -1,22 +1,20 @@
-# Architecture - osb-infra-terraform
+# Architecture
 
-## Overview
-Infrastructure as Code for cloud landing zones, networking, security and observability. This repository is part of the OmSaravanaBhava Learning Ecosystem Enterprise Architecture v1.0.
+## Purpose
+This document defines the approved baseline for **osb-infra-terraform**.
 
-## Context diagram
-```mermaid
-graph TD
-    User[User / Service] --> Repo[osb-infra-terraform]
-    Repo --> Standards[osb-engineering-standards]
-    Repo --> Platform[osb-platform-foundation]
-```
+## Requirements
+1. Follow the OmSaravanaBhava Engineering Standards.
+2. Use secure defaults and least privilege.
+3. Include automated validation in CI.
+4. Record material decisions through ADRs.
+5. Maintain traceability from requirement to test evidence.
 
-## Architecture principles
-- Secure by default
-- Observable by default
-- API-first where applicable
-- Documentation-as-code
-- ADR-controlled change
+## Acceptance criteria
+- Content is reviewed by the repository owner.
+- Security and operational impacts are documented.
+- Examples contain no credentials or personal data.
+- Implementation remains compatible with the approved architecture.
 
-## Dependencies
-See `ROADMAP.md` for implementation sequence and dependency notes.
+## Review cadence
+Review at least every six months or after a major architectural change.

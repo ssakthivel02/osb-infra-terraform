@@ -1,4 +1,4 @@
-# Security
+# Networking
 
 ## Purpose
 This document defines the approved baseline for **osb-infra-terraform**.
