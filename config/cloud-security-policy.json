@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "encryptionAtRest": true,
+  "encryptionInTransit": true,
+  "privateNetworkingPreferred": true,
+  "defaultDenyIngress": true,
+  "defaultDenyEgress": true,
+  "secretManagerRequired": true,
+  "workloadIdentityPreferred": true,
+  "mfaForPrivilegedAccess": true,
+  "auditLoggingRequired": true,
+  "backupRequired": true,
+  "crossRegionRecoveryRequired": true,
+  "productionDeletionProtection": true
+}

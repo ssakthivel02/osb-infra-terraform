@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "requiredTerraformVersion": ">=1.6.0",
+  "remoteStateRequired": true,
+  "stateEncryptionRequired": true,
+  "stateLockingRequired": true,
+  "providerVersionPinningRequired": true,
+  "planBeforeApply": true,
+  "manualProductionApproval": true,
+  "driftDetectionRequired": true,
+  "leastPrivilegeRequired": true,
+  "publicAccessDeniedByDefault": true,
+  "destructiveChangesRequireApproval": true,
+  "tagsRequired": ["owner", "environment", "service", "data-classification", "cost-centre"]
+}
